@@ -1,6 +1,7 @@
 let head=document.getElementById("head");
 let but=document.getElementById("but");
 let but1=document.getElementById('but1')
+let meow=document.getElementById("meow-sound")
 function pro(a){
     // var pic;
     if (a==0){
@@ -16,6 +17,7 @@ function pro(a){
         head.textContent="Switch ON"
         but.style.backgroundColor="rgb(179, 181, 183)"
         but1.style.backgroundColor="red"
+        meow.play()
     }
     document.getElementById("bol").src=pic;
     document.getElementById("cat").src=photo;
